@@ -1,0 +1,27 @@
+# Browser authentication and local environments
+.xidian_profile/
+.venv/
+venv/
+.env
+.env.*
+storage_state*.json
+cookies*.json
+*.har
+
+# Test artifacts and generated media
+work/
+outputs/
+dist/
+*.zip
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
